@@ -1,4 +1,8 @@
-# S3Django
+# S3Django with seoul region
+
+Seoul region have to set host "s3.ap-northeast-2.amazonaws.com"
+Otherwise boto library return 400 bad request error.
+
 
 ### Install libs
 
